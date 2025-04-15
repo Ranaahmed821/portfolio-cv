@@ -59,12 +59,15 @@ body {
 .available-badge {
     background-color: #28a745;
     color: #fff;
-    padding: 5px 15px;
-    border-radius: 15px;
-    font-size: 0.9rem;
-    margin-top: 10px;
+    padding: 10px 25px;        /* كانت 5px 15px */
+    border-radius: 25px;       /* كانت 15px */
+    font-size: 1.1rem;         /* كانت 0.9rem */
+    margin-top: 20px;
     display: inline-block;
+    font-weight: 600;          /* اختيارية لو حابة تخليه بولد شوية */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* اختيارية: ظل خفيف */
 }
+
 
 .section-card {
     background-color: #fff; /* خلفية السكشن أبيض */
