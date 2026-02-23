@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rana Ahmed - Portfolio</title>
+    <title>Rana Ahmed Atta - Portfolio | Back-End Developer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-   
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Custom cursor glow (optional) -->
+    <div id="cursor-glow" class="cursor-glow" aria-hidden="true"></div>
+    <div id="cursor-dot" class="cursor-dot" aria-hidden="true"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-neon">
         <div class="container">
-            <a class="navbar-brand" href="#">Rana.dev</a>
+            <a class="navbar-brand neon-brand" href="#"><i class="fas fa-code me-1"></i>Rana.dev</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home me-2"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user me-2"></i>About</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#experience"><i
+                                class="fas fa-briefcase me-2"></i>Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-tools me-2"></i>Skills</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><i
+                                class="fas fa-project-diagram me-2"></i>Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates"><i
+                                class="fas fa-certificate me-2"></i>Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i
+                                class="fas fa-envelope me-2"></i>Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -36,19 +46,21 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <h1>Hi, I'm Rana Ahmed</h1>
-                    <h2>Back-End Developer</h2>
-                    <p>Building secure, efficient, and scalable server-side solutions with PHP, Laravel, and SQL.</p>
+                    <h1>Hi, I'm <span class="neon-text">Rana Ahmed Atta</span></h1>
+                    <h2><i class="fas fa-code me-2"></i>Back-End Developer</h2>
+                    <p>Results-driven developer specializing in Laravel & CodeIgniter. Building scalable systems with Modular Architecture, RESTful APIs, and high-performance server-side solutions.</p>
                     <div class="mt-4">
-                        <a href="#contact" class="btn btn-outline-light me-2">Contact Me</a>
-                        <a href="RanaAhmed_CV.pdf" class="btn btn-outline-light" download>
+                        <a href="#contact" class="btn btn-neon me-2"><i class="fas fa-paper-plane me-1"></i>Contact Me</a>
+                        <a href="Rana-Ahmed-Atta-Resume.pdf" class="btn btn-neon-outline" download>
                             <i class="fas fa-download me-1"></i> Download CV
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <div class="circle-logo">RA</div>
-                    <div class="available-badge">Available for Work</div>
+                    <div class="hero-parallax-wrap">
+                        <div class="circle-logo neon-glow"><i class="fas fa-laptop-code"></i></div>
+                    </div>
+                    <div class="available-badge"><i class="fas fa-bolt me-1"></i>Available for Work</div>
                 </div>
             </div>
         </div>
@@ -57,150 +69,159 @@
     <!-- About Me -->
     <section id="about" class="py-5 section-card">
         <div class="container">
-            <div class="card">
+            <div class="card card-neon">
                 <div class="card-body">
-                    <h2 class="section-title">About Me</h2>
-                    <p>Aspiring back-end developer with foundational expertise in PHP, SQL, and PDO, complemented by a strong understanding of HTML and CSS basics. Experienced in developing applications using PHP and a database integration, with a solid grasp of Laravel fundamentals.</p>
-                    <p>Passionate about delivering secure, efficient, and scalable server-side solutions, with a commitment to continuous learning and adapting innovative technologies for impactful application development.</p>
+                    <h2 class="section-title"><i class="fas fa-user me-2"></i>About Me</h2>
+                    <p><i class="fas fa-quote-left me-2 neon-icon"></i>Results-driven Back-End Developer with professional experience in <strong>Laravel</strong> and <strong>CodeIgniter</strong>. Specialized in building scalable systems using <strong>Modular Architecture</strong> and managing the full lifecycle of web applications.</p>
+                    <p><i class="fas fa-shield-alt me-2 neon-icon"></i>Proven track record in bug fixing, technical support, and documentation analysis to ensure high-performance software delivery. Passionate about secure, efficient, and scalable server-side solutions.</p>
                     <div class="row mt-4">
                         <div class="col-md-6">
-                            <h5>Contact Information</h5>
-                            <p><i class="fas fa-map-marker-alt me-2"></i> El Soyof, Alexandria, Egypt</p>
-                            <p><i class="fas fa-envelope me-2"></i> ranaahmed342@gmail.com</p>
-                            <p><i class="fas fa-phone me-2"></i> 01557022776</p>
+                            <h5><i class="fas fa-address-card me-2"></i>Contact Information</h5>
+                            <p><i class="fas fa-map-marker-alt me-2 neon-icon"></i> El Soyof, Alexandria, Egypt</p>
+                            <p><i class="fas fa-envelope me-2 neon-icon"></i> ranmory342@gmail.com</p>
+                            <p><i class="fas fa-phone me-2 neon-icon"></i> 01557022776</p>
                         </div>
                         <div class="col-md-6">
-                            <h5>Personal Details</h5>
-                            <p><strong>Languages:</strong> English, Arabic</p>
-                            <p><strong>Availability:</strong> Full-time</p>
-                            <p><strong>Experience:</strong> 1 year</p>
+                            <h5><i class="fas fa-info-circle me-2"></i>Personal Details</h5>
+                            <p><i class="fas fa-language me-2 neon-icon"></i> <strong>Languages:</strong> English, Arabic</p>
+                            <p><i class="fas fa-clock me-2 neon-icon"></i> <strong>Availability:</strong> Full-time</p>
+                            <p><i class="fas fa-briefcase me-2 neon-icon"></i> <strong>Experience:</strong> 2+ years</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
 
 
-<!-- Professional Experience -->
-<section id="experience" class="py-5 section-card">
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-                <h2 class="section-title">Professional Experience</h2>
-                <div class="mb-3">
-                    <h5>Back-End Developer ( Full Time)</h5>
-                    <p class="text-muted">Stem AI | 2024 – present
-                    </p>
-                    <ul>
-                        <li>Completed specialized training in back-end development as part of a
-                            comprehensive 7-month Full Stack Development Diploma, focusing on PHP,
-                            SQL, and Laravel</li>
-                        <li>Designed and delivered structured curriculum modules, emphasizing
-                            programming fundamentals, database integration, and scalable server-side
-                            development.
-                            </li>
-                        <li>Played a key role in developing and maintaining the company’s website,
-                            ensuring high performance, functionality, and an optimal user experience</li>
-                    </ul>
-                </div>
-                <div class="mb-3">
-                    <h5>backend Developer (Remote)</h5>
-                    <p class="text-muted">Smart Technology Solutions | 04/2023 – 07/2023
-                    </p>
-                    <ul>
-                        
-                        <li>Gained a strong foundation in back-end development with a focus on PHP and
-                            database management. Actively contributed to designing, optimizing, and
-                            managing databases using SQL and PDO, ensuring seamless data flow for web
-                            applications. Developed and maintained server-side logic, enhancing the
-                            functionality and performance of web and mobile applications. Implemented
-                            best practices for PHP-based architecture, streamlining development processes
-                            and improving application scalability and maintainability</li>
-                    </ul>
-                </div>
-                <div class="mb-3">
-                    <h5>data analyst (internship)</h5>
-                    <p class="text-muted">Smart Technology Solutions | 2022
-                    </p>
-                    <ul>
-                        
-                        <li>Acquired foundational knowledge in data analysis using Excel, including
-                            advanced functions, pivot tables, and data visualization techniques.
-                            </li>
-                            <li>•Gained a basic understanding of Power BI for creating interactive dashboards
-                                and reports, enabling effective data-driven decision-making
-                                </li>
-                    </ul>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="py-5 section-card">
+        <div class="container">
+            <div class="card card-neon">
+                <div class="card-body">
+                    <h2 class="section-title"><i class="fas fa-briefcase me-2"></i>Professional Experience</h2>
+                    <div class="mb-4 exp-block">
+                        <h5><i class="fas fa-building me-2"></i>Software Engineering – Back-End Developer</h5>
+                        <p class="text-muted"><i class="fas fa-calendar-alt me-1"></i> Softa Solutions · Full Time | 2025 – Present · Alexandria, Egypt</p>
+                        <ul class="list-icons">
+                            <li><i class="fas fa-layer-group me-2"></i>Modular Architecture: Developed and maintained scalable web applications ensuring code reusability and separation of concerns.</li>
+                            <li><i class="fas fa-server me-2"></i>Built and optimized robust server-side logic using Laravel and CodeIgniter frameworks.</li>
+                            <li><i class="fas fa-building me-2"></i>Architected and developed a scalable Multi-tenant ERP system using CodeIgniter, ensuring data isolation and automated onboarding for new tenants.</li>
+                            <li><i class="fas fa-graduation-cap me-2"></i>Engineered a custom LMS (Learning Management System) using Laravel, facilitating seamless course delivery and student management.</li>
+                            <li><i class="fas fa-cogs me-2"></i>Streamlined business operations by building a custom Full-stack CMS, giving non-technical staff full control over platform content.</li>
+                            <li><i class="fas fa-credit-card me-2"></i>Integrated secure payment infrastructures (Paymob) for diverse projects, boosting automated revenue collection.</li>
+                            <li><i class="fas fa-rocket me-2"></i>Delivered multiple MVPs for various clients, balancing high-quality code with rapid deployment cycles.</li>
+                            <li><i class="fas fa-tools me-2"></i>Technical Support & Maintenance: Analyzed documentation, identified architectural gaps, and delivered efficient solutions.</li>
+                            <li><i class="fas fa-bug me-2"></i>Bug Fixing & Optimization: Debugged complex issues, improving application stability and performance.</li>
+                            <li><i class="fas fa-plug me-2"></i>API Management: Developed and integrated RESTful APIs for seamless front-end and back-end communication.</li>
+                        </ul>
+                    </div>
+                    <div class="mb-4 exp-block">
+                        <h5><i class="fas fa-chalkboard-teacher me-2"></i>Programming Instructor</h5>
+                        <p class="text-muted"><i class="fas fa-calendar-alt me-1"></i> Future Code Academy · Hybrid | 2025 – Present · Alexandria, Egypt</p>
+                        <ul class="list-icons">
+                            <li><i class="fas fa-book-open me-2"></i>Curriculum Delivery: Instructing on Python syntax, data structures, and algorithms.</li>
+                            <li><i class="fas fa-users me-2"></i>Hands-on Mentorship: Guiding students through real-world projects, clean code, and problem-solving.</li>
+                            <li><i class="fas fa-globe me-2"></i>Covering OOP, logic building, and introduction to web development.</li>
+                        </ul>
+                    </div>
+                    <div class="mb-4 exp-block">
+                        <h5><i class="fas fa-code me-2"></i>Back-End Developer (Full Time)</h5>
+                        <p class="text-muted"><i class="fas fa-calendar-alt me-1"></i> Stem AI | 2024 – 07/2025 · Alexandria, Egypt</p>
+                        <ul class="list-icons">
+                            <li><i class="fas fa-graduation-cap me-2"></i>Completed 7-month Full Stack Development Diploma (PHP, SQL, Laravel).</li>
+                            <li><i class="fas fa-tasks me-2"></i>Designed and delivered curriculum modules on programming fundamentals and database integration.</li>
+                            <li><i class="fas fa-desktop me-2"></i>Developed and maintained the company’s website for high performance and optimal UX.</li>
+                        </ul>
+                    </div>
+                    <div class="mb-4 exp-block">
+                        <h5><i class="fas fa-chart-bar me-2"></i>Data Analyst (Internship)</h5>
+                        <p class="text-muted"><i class="fas fa-calendar-alt me-1"></i> Arabian Academy | 2022 · Alexandria, Egypt</p>
+                        <ul class="list-icons">
+                            <li><i class="fas fa-file-excel me-2"></i>Data analysis using Excel: advanced functions, pivot tables, and data visualization.</li>
+                            <li><i class="fas fa-chart-line me-2"></i>Power BI for interactive dashboards and reports for data-driven decision-making.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Volunteer Experience -->
-<section id="volunteer" class="py-5 section-card">
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-                <h2 class="section-title">Volunteer Experience</h2>
-                <div class="mb-3">
-                    <h5>Idea Generation Camp <span class="float-end text-muted">07/2024 - 08/2024</span></h5>
-                    <p class="text-muted">Egypt Entrepreneurship and Innovation Center - Alexandria, Egypt</p>
-                    <p>Participated in a training camp focused on empowering Egyptian university students to generate and develop innovative project ideas aligned with sustainable development goals using the design-thinking methodology.</p>
-                </div>
-                <div class="mb-3">
-                    <h5>She Works Wonders 2023 <span class="float-end text-muted">2023</span></h5>
-                    <p class="text-muted">INJAZ Egypt - Alexandria, Egypt</p>
-                    <p>Participated in workshops focused on skill development and entrepreneurship.</p>
-                </div>
-                <div class="mb-3">
-                    <h5>Resala Charity Association <span class="float-end text-muted">01/2016 - 01/2020</span></h5>
-                    <p class="text-muted">Alexandria, Egypt</p>
-                    <p>Assisted with community service events and organized fundraising activities.</p>
+    <!-- Volunteer Experience -->
+    <section id="volunteer" class="py-5 section-card">
+        <div class="container">
+            <div class="card card-neon">
+                <div class="card-body">
+                    <h2 class="section-title"><i class="fas fa-heart me-2"></i>Volunteer Experience</h2>
+                    <div class="mb-3">
+                        <h5><i class="fas fa-lightbulb me-2"></i>Idea Generation Camp <span class="float-end text-muted">07/2024 – 08/2024</span></h5>
+                        <p class="text-muted"><i class="fas fa-map-marker-alt me-1"></i> Egypt Entrepreneurship and Innovation Center – Alexandria, Egypt</p>
+                        <p><i class="fas fa-quote-right me-2 neon-icon"></i>Training camp empowering university students to generate innovative project ideas aligned with sustainable development goals using design-thinking (stakeholder maps, empathy maps, interviews, business models).</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5><i class="fas fa-star me-2"></i>She Works Wonders 2023 <span class="float-end text-muted">2023</span></h5>
+                        <p class="text-muted"><i class="fas fa-map-marker-alt me-1"></i> INJAZ Egypt – Alexandria, Egypt</p>
+                        <p><i class="fas fa-hands-helping me-2 neon-icon"></i>Workshops on skill development and entrepreneurship.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5><i class="fas fa-hands-helping me-2"></i>Resala Charity Association <span class="float-end text-muted">01/2016 – 01/2020</span></h5>
+                        <p class="text-muted"><i class="fas fa-map-marker-alt me-1"></i> Alexandria, Egypt</p>
+                        <p><i class="fas fa-donate me-2 neon-icon"></i>Community service events and organized fundraising activities.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- Technical Skills -->
     <section id="skills" class="py-5 section-card">
         <div class="container">
-            <div class="card">
+            <div class="card card-neon">
                 <div class="card-body">
-                    <h2 class="section-title">Technical Skills</h2>
+                    <h2 class="section-title"><i class="fas fa-tools me-2"></i>Technical Skills</h2>
                     <div class="row">
                         <div class="col-md-4">
-                            <h5>Programming Skills</h5>
-                            <p>PHP <span class="float-end">85%</span></p>
-                            <div class="progress mb-2"><div class="progress-bar" style="width: 85%"></div></div>
-                            <p>MySQL(PDO) <span class="float-end">80%</span></p>
-                            <div class="progress mb-2"><div class="progress-bar" style="width: 80%"></div></div>
-                            <p>Laravel <span class="float-end">75%</span></p>
-                            <div class="progress mb-2"><div class="progress-bar" style="width: 75%"></div></div>
-                            <p>HTML <span class="float-end">90%</span></p>
-                            <div class="progress mb-2"><div class="progress-bar" style="width: 90%"></div></div>
-                            <p>CSS <span class="float-end">70%</span></p>
-                            <div class="progress mb-2"><div class="progress-bar" style="width: 70%"></div></div>
-                            <p>Firebase <span class="float-end">50%</span></p>
-                            <div class="progress"><div class="progress-bar" style="width: 50%"></div></div>
+                            <h5><i class="fas fa-code me-2"></i>Programming</h5>
+                            <p><i class="fab fa-php me-2"></i>PHP (Expert) <span class="float-end">90%</span></p>
+                            <div class="progress mb-2"><div class="progress-bar progress-neon" style="width: 90%"></div></div>
+                            <p><i class="fas fa-database me-2"></i>MySQL / PDO <span class="float-end">85%</span></p>
+                            <div class="progress mb-2"><div class="progress-bar progress-neon" style="width: 85%"></div></div>
+                            <p><i class="fas fa-leaf me-2"></i>Laravel / Laravel 12 <span class="float-end">85%</span></p>
+                            <div class="progress mb-2"><div class="progress-bar progress-neon" style="width: 85%"></div></div>
+                            <p><i class="fab fa-python me-2"></i>Python / Tkinter <span class="float-end">75%</span></p>
+                            <div class="progress mb-2"><div class="progress-bar progress-neon" style="width: 75%"></div></div>
+                            <p><i class="fab fa-html5 me-2"></i>HTML5 / <i class="fab fa-css3-alt me-2"></i>CSS3 <span class="float-end">88%</span></p>
+                            <div class="progress mb-2"><div class="progress-bar progress-neon" style="width: 88%"></div></div>
+                            <p><i class="fab fa-js me-2"></i>JavaScript (Basic) <span class="float-end">65%</span></p>
+                            <div class="progress"><div class="progress-bar progress-neon" style="width: 65%"></div></div>
                         </div>
                         <div class="col-md-4">
-                            <h5>Tools & Technologies</h5>
-                            <p><i class="fas fa-check me-2"></i> Git</p>
-                            <p><i class="fas fa-check me-2"></i> RESTful APIs</p>
-                            <p><i class="fas fa-check me-2"></i> Routing</p>
-                            <p><i class="fas fa-check me-2"></i> API Development</p>
-                            <p><i class="fas fa-check me-2"></i> Docker</p>
-                            <p><i class="fas fa-check me-2"></i> Postman</p>
+                            <h5><i class="fas fa-cogs me-2"></i>Frameworks & Stack</h5>
+                            <p><i class="fas fa-check me-2 neon-icon"></i> Laravel 12 · CodeIgniter</p>
+                            <p><i class="fas fa-check me-2 neon-icon"></i> Filament v3 · Livewire</p>
+                            <p><i class="fas fa-check me-2 neon-icon"></i> Modular Architecture</p>
+                            <p><i class="fas fa-check me-2 neon-icon"></i> RESTful APIs</p>
+                            <p><i class="fas fa-check me-2 neon-icon"></i> Bootstrap · jQuery · AJAX</p>
+                            <h5 class="mt-3"><i class="fas fa-wrench me-2"></i>Key Strengths</h5>
+                            <p><i class="fas fa-database me-2 neon-icon"></i> Database Migration</p>
+                            <p><i class="fas fa-moon me-2 neon-icon"></i> Dark Mode / UI Customization</p>
+                            <p><i class="fas fa-bug me-2 neon-icon"></i> Bug Fixing · Technical Support</p>
+                            <p><i class="fas fa-file-alt me-2 neon-icon"></i> Documentation Analysis</p>
                         </div>
                         <div class="col-md-4">
-                            <h5>Relevant Courses</h5>
-                            <p><i class="fas fa-book me-2"></i> Problem-Solving</p>
-                            <p><i class="fas fa-book me-2"></i> Laravel Framework</p>
+                            <h5><i class="fas fa-toolbox me-2"></i>Technical Tools</h5>
+                            <p><i class="fab fa-git-alt me-2 neon-icon"></i> Git & GitHub</p>
+                            <p><i class="fas fa-paper-plane me-2 neon-icon"></i> Postman</p>
+                            <p><i class="fas fa-terminal me-2 neon-icon"></i> WSL</p>
+                            <p><i class="fas fa-database me-2 neon-icon"></i> MySQL</p>
+                            <p><i class="fab fa-docker me-2 neon-icon"></i> Docker</p>
+                            <h5 class="mt-3"><i class="fas fa-star me-2"></i>Technical Highlights</h5>
+                            <p><i class="fas fa-check me-2 neon-icon"></i> Multi-tenant SaaS / ERP</p>
+                            <p><i class="fas fa-check me-2 neon-icon"></i> Custom CMS · LMS Platforms</p>
+                            <p><i class="fab fa-wordpress me-2 neon-icon"></i> WordPress (Themes & Plugins)</p>
+                            <p><i class="fas fa-rocket me-2 neon-icon"></i> MVP & Rapid Development</p>
                         </div>
                     </div>
                 </div>
@@ -211,33 +232,26 @@
     <!-- Projects -->
     <section id="projects" class="py-5 section-card">
         <div class="container">
-            <div class="card">
+            <div class="card card-neon">
                 <div class="card-body">
-                    <h2 class="section-title">Projects</h2>
-                    <div class="mb-3">
-                        <h5>STEM AI</h5>
-                        <p>An educational platform built using PHP (PDO) and Vanilla JavaScript, ensuring dynamic content rendering and database integration.</p>
-                        <a href="https://github.com/ranaahmed821/stem-ai" target="_blank">View on GitHub <i class="fas fa-external-link-alt ms-1"></i></a>
+                    <h2 class="section-title"><i class="fas fa-project-diagram me-2"></i>Projects</h2>
+                    <div class="mb-4">
+                        <h5><i class="fas fa-graduation-cap me-2"></i>STEM AI</h5>
+                        <p><i class="fas fa-info-circle me-2 neon-icon"></i>Educational platform using PHP (PDO) and Vanilla JavaScript — dynamic content rendering and database integration.</p>
+                        <a href="https://github.com/ranaahmed821/stem-ai" target="_blank" class="btn-neon-link"><i class="fab fa-github me-1"></i>View on GitHub <i class="fas fa-external-link-alt ms-1"></i></a>
                     </div>
-                    <div class="mb-3">
-                        <h5>PCX Project</h5>
-                        <p>Developed a full-stack application as part of the graduation project, utilizing modern web technologies (Bootstrap, React, PHP).</p>
-                        <a href="https://github.com/ranaahmed821/pcx-project" target="_blank">View on GitHub <i class="fas fa-external-link-alt ms-1"></i></a>
+                    <div class="mb-4">
+                        <h5><i class="fas fa-rocket me-2"></i>PCX Project</h5>
+                        <p><i class="fas fa-info-circle me-2 neon-icon"></i>Full-stack graduation project using Bootstrap, React, and PHP.</p>
+                        <a href="https://github.com/ranaahmed821/pcx-project" target="_blank" class="btn-neon-link"><i class="fab fa-github me-1"></i>View on GitHub <i class="fas fa-external-link-alt ms-1"></i></a>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education -->
-    <section id="education" class="py-5 section-card">
-        <div class="container">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="section-title">Education</h2>
-                    <div class="mb-3">
-                        <h5>Bachelor of Science in Information Systems and Management <span class="float-end text-muted">2020 - 2024</span></h5>
-                        <p class="text-muted">Egyptian Institute of Alexandria Academy of Management and Accounting - Alexandria, Egypt</p>
+                    <div class="mb-4">
+                        <h5><i class="fas fa-shopping-cart me-2"></i>E-commerce & Admin Dashboard</h5>
+                        <p><i class="fas fa-info-circle me-2 neon-icon"></i>Full-stack e-commerce with Laravel 12, Livewire 3 (Volt), Filament v3, and Tailwind; SPA-like UX, custom admin dashboard (CRUD for products, categories, users), and responsive branding.</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5><i class="fas fa-stethoscope me-2"></i>Clinic Management Application</h5>
+                        <p><i class="fas fa-info-circle me-2 neon-icon"></i>Desktop GUI app with Python & Tkinter for clinic operations; report configuration and generation for medical reporting.</p>
                     </div>
                 </div>
             </div>
@@ -247,20 +261,20 @@
     <!-- Certificates -->
     <section id="certificates" class="py-5 section-card">
         <div class="container">
-            <div class="card">
+            <div class="card card-neon">
                 <div class="card-body">
-                    <h2 class="section-title">Certificates</h2>
+                    <h2 class="section-title"><i class="fas fa-certificate me-2"></i>Certificates</h2>
                     <div class="mb-3">
-                        <h5>Data Science for Startups Diploma <span class="float-end text-muted">07/2024</span></h5>
-                        <p class="text-muted">Egypt Entrepreneurship and Innovation Center</p>
+                        <h5><i class="fas fa-award me-2"></i>Data Science for Startups Diploma <span class="float-end text-muted">07/2024</span></h5>
+                        <p class="text-muted"><i class="fas fa-building me-1"></i> Egypt Entrepreneurship and Innovation Center</p>
                     </div>
                     <div class="mb-3">
-                        <h5>Diploma in Social Media Marketing <span class="float-end text-muted">07/2024</span></h5>
-                        <p class="text-muted">Egypt Entrepreneurship and Innovation Center</p>
+                        <h5><i class="fas fa-award me-2"></i>Diploma in Social Media Marketing <span class="float-end text-muted">07/2024</span></h5>
+                        <p class="text-muted"><i class="fas fa-building me-1"></i> Egypt Entrepreneurship and Innovation Center</p>
                     </div>
                     <div class="mb-3">
-                        <h5>Student Activity Certificate <span class="float-end text-muted">2023</span></h5>
-                        <p class="text-muted">INJAZ Egypt - Alexandria, Egypt</p>
+                        <h5><i class="fas fa-award me-2"></i>Student Activity Certificate <span class="float-end text-muted">2023</span></h5>
+                        <p class="text-muted"><i class="fas fa-building me-1"></i> INJAZ Egypt – Alexandria, Egypt</p>
                     </div>
                 </div>
             </div>
@@ -270,40 +284,43 @@
     <!-- Contact -->
     <section id="contact" class="py-5 section-card">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="text-center text-muted mb-4">Feel free to contact me for any work or suggestion below</p>
+            <h2 class="section-title"><i class="fas fa-envelope me-2"></i>Get In Touch</h2>
+            <p class="text-center text-muted mb-4"><i class="fas fa-comment-dots me-1"></i> Feel free to contact me for any work or suggestion below</p>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="card">
+                    <div class="card card-neon">
                         <div class="card-body">
-                            <h5>Contact Information</h5>
-                            <p><i class="fas fa-map-marker-alt me-2"></i> El Soyof, Alexandria, Egypt</p>
-                            <p><i class="fas fa-envelope me-2"></i> ranaahmed342@gmail.com</p>
-                            <p><i class="fas fa-phone me-2"></i> 01557022776</p>
-                            <h6 class="mt-3">Follow Me</h6>
-                            <a href="https://linkedin.com/in/rana-ahmed" target="_blank" class="me-2"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://github.com/ranaahmed821" target="_blank"><i class="fab fa-github"></i></a>
+                            <h5><i class="fas fa-address-card me-2"></i>Contact Information</h5>
+                            <p><i class="fas fa-map-marker-alt me-2 neon-icon"></i> El Soyof, Alexandria, Egypt</p>
+                            <p><i class="fas fa-envelope me-2 neon-icon"></i> ranmory342@gmail.com</p>
+                            <p><i class="fas fa-phone me-2 neon-icon"></i> 01557022776</p>
+                            <h6 class="mt-3"><i class="fas fa-share-alt me-2"></i>Follow Me</h6>
+                            <a href="https://linkedin.com/in/rana-ahmed" target="_blank" class="social-link me-3"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/ranaahmed821" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <div class="card">
+                    <div class="card card-neon">
                         <div class="card-body">
-                            <h5>Send Me a Message</h5>
-                            <form>
+                            <h5><i class="fas fa-paper-plane me-2"></i>Send Me a Message</h5>
+                            <!-- Replace YOUR_FORMSPREE_ID in the form action with your ID from https://formspree.io (emails go to your account) -->
+                            <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+                                <input type="hidden" name="_subject" value="Portfolio – New message">
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Enter your name">
+                                    <input type="text" name="name" class="form-control form-neon" placeholder="Your name" required>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" class="form-control" placeholder="Enter your email">
+                                    <input type="email" name="_replyto" class="form-control form-neon" placeholder="Your email" required>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Subject">
+                                    <input type="text" name="subject" class="form-control form-neon" placeholder="Subject" required>
                                 </div>
                                 <div class="mb-3">
-                                    <textarea class="form-control" placeholder="Message" rows="4"></textarea>
+                                    <textarea name="message" class="form-control form-neon" placeholder="Message" rows="4" required></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane me-1"></i> Send Message</button>
+                                <button type="submit" class="btn btn-neon" id="form-submit-btn"><i class="fas fa-paper-plane me-1"></i> Send Message</button>
+                                <p id="form-status" class="mt-2 small mb-0"></p>
                             </form>
                         </div>
                     </div>
@@ -313,18 +330,20 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <p class="mb-0">Rana.dev <br> Back-End Developer</p>
-            <p class="mb-0">© 2025 Rana Ahmed. All Rights Reserved.</p>
+    <footer class="py-3 footer-neon">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+            <p class="mb-0"><i class="fas fa-code me-1"></i> Rana.dev · Back-End Developer</p>
+            <p class="mb-0">© 2025 Rana Ahmed Atta. All Rights Reserved.</p>
             <div>
-                <a href="https://linkedin.com/in/rana-ahmed" target="_blank" class="me-2"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/ranaahmed821" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/rana-ahmed" target="_blank" class="social-link me-2"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ranaahmed821" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+    <script src="animations.js"></script>
 </body>
+
 </html>
