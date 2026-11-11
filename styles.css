@@ -352,6 +352,32 @@ body::before {
     width: 1.2em;
 }
 
+.skill-groups h5 {
+    margin-bottom: 0.85rem;
+}
+
+.skill-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 0.55rem;
+    line-height: 1.4;
+}
+
+.skill-list li i {
+    color: var(--neon-cyan);
+    text-shadow: 0 0 8px rgba(0, 245, 255, 0.4);
+    width: 1.15em;
+    text-align: center;
+    flex-shrink: 0;
+}
+
 /* ========== Progress Bars (Neon) ========== */
 .progress {
     height: 10px;
